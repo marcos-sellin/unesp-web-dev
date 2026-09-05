@@ -3,7 +3,8 @@
 ## Observações
 
 - Essa é uma matéria optativa do curso que utiliza três principais linguagens, sendo elas HTML, CSS e JavaScript;
-- Assets é uma pasta de imagens, scripts para guardar os arquivos js e styles para os arquivos css.
+- A pasta atividades/ é dedicada para arquivos PDF que explicam o conteúdo de cada atividade;
+- A pasta web/ armazena todos os componentes das atividades realizadas.
 
 ## Informações Acadêmicas
 
@@ -18,4 +19,4 @@
 
 ## Checklist de Aulas
 
-- [ ] Aula 01 - Introdução a HTML e CSS
+- [X] Aula 01 - Introdução a HTML e CSS
