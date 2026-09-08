@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#6f7e8a">
+    <!-- Listas ordenadas -->
+    <h1>Trabalhando com listas ordenadas</h1>
+
+    <div style="display: flex;">
+        <ol type="1">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ol>
+
+        <ol type="A">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ol>
+
+        <ol type="a">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ol>
+
+        <ol type="I">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ol>
+
+        <ol type="i">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ol>
+    </div>
+
+    <!-- Listas não ordenadas -->
+    <h1>Trabalhando com listas não ordenadas</h1>
+
+    <div style="display: flex;">
+        <ul type="disc">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ul>
+
+        <ul type="square">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ul>
+
+        <ul type="circle">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ul>
+    </div>
+
+    <!-- Lista de descrição -->
+    <h1>Trabalhando com listas de descrição</h1>
+    
+    <div>
+        <ul>
+            <dt>Café</dt>
+            <dd>Líquido preto e amargo</dd>
+            <dt>Pão de Queijo</dt>
+            <dd>Pão com recheio de queijo</dd>
+        </ul>
+    </div>
+
+    <!-- Tabela -->
+    <h1>Trabalhando com tabelas</h1>
+
+    <div style="display: flex;">
+        <table border="1">
+            <caption>Notas da primeira avaliação</caption>
+                <td align="center">Notas/Alunos</td>
+                <th align="center">Eduardo</th>
+                <th align="center">Ana Lúcia</th>
+            <tr>
+                <th align="center">Notas</th>
+                <td align="center">8,0</td>
+                <td align="center">9,3</td>
+            <tr>
+                <th align="center">N de Inscrição</th>
+                <td align="center">10357</td>
+                <td align="center">25234</td>
+        </table>
+
+        <table border="1" style="margin-left: 15px;">
+            <caption>Nomes e idade</caption>
+                <th align="center" colspan="2">Notas</td>
+                <th align="center">Idade</th>
+            <tr>
+                <td align="center">Eduardo</th>
+                <td align="center">Paulo</td>
+                <td align="center">18</td>
+            <tr>
+                <td align="center">Carlos</th>
+                <td align="center">Marcela</td>
+                <td align="center">19</td>
+        </table>
+
+        <table border="1" style="margin-left: 15px;">
+            <caption>Nomes e idade</caption>
+                <th align="center">X</td>
+                <th align="center">Perecível</th>
+                <th align="center">Nao Perecível</th>
+            <tr>
+                <td align="center" rowspan="2">Item</th>
+                <td align="center">Banana</td>
+                <td align="center">Abacate</td>
+            <tr>
+                <td align="center">Bolacha</th>
+                <td align="center">Arroz</td>
+        </table>
+    </div>
+
+    <!-- Formulário -->
+    <h1>Trabalhando com formulários</h1>
+
+    <form>
+        <h2>Área de login</h2>
+            <label for="login">Login:</label>
+            <input type="text" name="login" maxlength="20" value="seu login">
+        <br>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" maxlength="20" value="senha teste">
+        <br>
+            <h2>Checkboxes</h2>
+            <label for="esportesPref">Esporte Favorito:</label>
+            <input type="checkbox" name="chkFutebol" value="futebol">Futebol
+            <input type="checkbox" name="chkVolei" value="volei">Volei
+            <input type="checkbox" name="chkBasquete" value="basquete" checked>Basquete
+            <input type="checkbox" name="chktriatlo" value="triatlo">Triatlo
+        <br>
+            <h2>Radio Buttons</h2>
+            <label for="unicaEscolha">Você é maior de idade?</label>
+            <input type="radio" name="rdEscolha" value="sim">Sim
+            <input type="radio" name="rdEscolha" value="nao">Não
+    </form>
+</body>
+</html>

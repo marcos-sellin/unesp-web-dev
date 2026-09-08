@@ -4,7 +4,8 @@
 
 - Essa é uma matéria optativa do curso que utiliza três principais linguagens, sendo elas HTML, CSS e JavaScript;
 - A pasta atividades/ é dedicada para arquivos PDF que explicam o conteúdo de cada atividade;
-- A pasta web/ armazena todos os componentes das atividades realizadas.
+- A pasta web/ armazena todas as atividades realizadas e seus componentes;
+- A pasta praticas/ contém todas as práticas feitas durante as aulas e seus componentes.
 
 ## Informações Acadêmicas
 
