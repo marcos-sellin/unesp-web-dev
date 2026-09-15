@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SAC Info</title>
+
+    <style>
+        .corWheat {
+            color: wheat;
+            font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
+        }
+
+        .corSnow {
+            color: snow;
+            font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
+        }
+
+        .tabelaPadding {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        h2, h3 {
+            margin: 25px 200px 10px;
+        }
+
+        p {
+            margin: 0 200px 0;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: wheat;
+            margin: 0 200px 0;
+        }
+
+        dd {
+            margin: 0 44px 10px;
+        }
+    </style>
+</head>
+
+<body bgcolor="#1D1F21">
+    <h1 style="text-align: center;" class="corWheat">I Semana Acadêmica de Computação</h1><hr>
+
+    <h2 class="corWheat">Sobre a SAC</h2>
+    <p class="corSnow">Durante o período de três dias, serão oferecidos minicursos, palestras
+    e workshops, contemplando estudos e pesquisas na área da Ciência da Computação.
+    Todos podem participar, não somente os alunos do curso, assim permitindo que
+    todos os interessados tenham a chance de aprender e por em prática os conteúdos
+    oferecidos pelos nossos profissionais.</p>
+
+    <h2 class="corWheat">Modalidades do Evento</h2>
+    <dl style="margin: 0 200px 0;" class="corSnow">
+        <dt>Minicursos (Manhã):</dt>
+        <dd>Momentos de aprendizado com duração de 4h sobre algum assunto crucial para a área da computação;</dd>
+
+        <dt>Hackaton (Manhã e Tarde):</dt>
+        <dd>Hackaton com duração de 8h para os membros competirem usando seus conhecimentos na área;</dd>
+
+        <dt>Workshops (Tarde):</dt>
+        <dd>Momentos de prática com duração de 4h para por a mão na massa usando o conhecimento adquirido nos cursos;</dd>
+
+        <dt>Palestras (Noite):</dt>
+        <dd>Momentos de exposição com duração de 2h conduzido por grandes profissionais para todos os participantes.</dd>
+
+        <dt>Cerimônia de Encerramento (noite):</dt>
+        <dd>Na última noite do evento, os participantes podem levar acompanhantes para assistir o encerramento da SAC e ganharem seus certificados.</dd>
+
+        <dt>Mentoria de Carreira (Variável):</dt>
+        <dd>Durante a inscrição, o participante pode eleger um horário no evento para ter mentoria de carreira individual com um profissionak</dd>
+
+        <dt>Minicursos Preparatórios (Anterior):</dt>
+        <dd>Durante o semestre acadêmico, o aluno pode escolher uma semana para realizar minicursos preparatórios organizados pelos professores</dd> 
+    </dl>
+
+    <h2 class="corWheat">Benefícios por Participar</h2>
+    <ul style="margin: 0 178px 0;" class="corSnow">
+        <li>Certificado de Horas;</li>
+
+        <li>Networking;</li>
+
+        <li>Sorteios.</li>
+    </ul>
+
+    <h2 class="corWheat">Passos para a Inscrição</h2>
+    <ol style="margin: 0 186px 0;" class="corSnow" type="1">
+        <li>Preencha o formulário abaixo;</li>
+
+        <li>Escolha os minicursos;</li>
+
+        <li>Envie seu cadastro.</li>
+    </ol>
+
+    <h2 class="corWheat">Cronograma do Evento</h2>
+    <table style="margin: 0 200px 0; text-align: center;" class="corSnow" border="1">
+        <th>Dia</th>
+        <th>Manhã (8h-12h)</th>
+        <th>Tarde (14h-18h)</th>
+        <th>Pausa (18h-20h)</th>
+        <th>Noite (20h-21h)</th>
+        <tr></tr>
+
+        <th>1</th>
+        <td>Minicurso de Hardware</td>
+        <td>Computador do Zero</td>
+        <td rowspan="5">Coffe Break</td>
+        <td class="tabelaPadding">Representante da Sebrae</td>
+        <tr></tr>
+
+        <th>2</th>
+        <td class="tabelaPadding">Minicurso de Obsidian</td>
+        <td class="tabelaPadding">Cronogramas usando Obsidian</td>
+        <td>Gerente do IFood</td>
+        <tr></tr>
+
+        <th>3</th>
+        <td colspan="2">Hackaton</td>
+        <td>Cerimônia de Encerramento</td>
+    </table>
+
+    <h2 class="corWheat">Formulário de Inscrição</h2>
+
+    <form>
+        <table class="corSnow" style="margin: 0 0 0 200px;" border="1">
+            <th class="corWheat" colspan="2" align="center">Dados Pessoais</th>
+            <th class="corWheat" colspan="2" align="center">Ingresso e Atividades</th><tr></tr>
+
+            <td align="center">Digite seu nome:</td>
+            <td class="tabelaPadding" align="center"><input type="text" name="userNome" placeholder="Seu nome aqui"></td>
+
+            <td align="center">Escolha seu ingresso:</td>
+            <td align="center"><input type="radio" id="estudante" name="userIngresso" value="Estudante">
+            <label for="estudante">Estudante</label>
+            <input type="radio" id="professor" name="userIngresso" value="Professor">
+            <label for="professor">Professor</label>
+            <input type="radio" id="visitante" name="userIngresso" value="Visitante">
+            <label for="visitante">Visitante</label></td>
+
+            <tr></tr>
+
+            <td align="center">Digite seu RA:</td>
+            <td align="center"><input type="text" name="userRA" placeholder="Seu RA aqui"></td>
+
+            <td class="tabelaPadding" rowspan="3" align="center">Escolha suas atividades:</td>
+            <td class="tabelaPadding" rowspan="3" align="center"><input type="checkbox" id="miniHardware" name="userHardware">
+            <label for="miniHardware">Minicurso Hardware</label>
+            <input type="checkbox" id="workHardware" name="userPratHardware">
+            <label for="workHardware">Workshop Hardware</label><br>
+            <input type="checkbox" id="miniObsidian" name="userObsidian">
+            <label for="miniObsidian">Minicurso Obsidian</label>
+            <input type="checkbox" id="workObsidian" name="userPratObsidian">
+            <label for="workObsidian">Workshop Obsidian</label></td>
+
+            <tr></tr>
+
+            <td align="center">Digite seu e-mail:</td>
+            <td align="center"><input type="email" name="userEmail" placeholder="Seu e-mail aqui"></td>
+
+            <tr></tr>
+
+            <td align="center">Crie uma senha:</td>
+            <td align="center"><input type="password" name="userSenha" placeholder="Sua senha aqui"></td>
+
+            <td align="center">Horário da mentoria:</td>
+            <td align="center"><input type="datetime-local" name="userDatetimeLocal" id="userMentoriaHorario"></td>
+
+            <tr></tr>
+
+            <td class="tabelaPadding" align="center">Informe sua data de nascimento:</td>
+            <td align="center"><input type="date" name="userNascimento"></td>
+
+            <td align="center">Semana preparatória:</td>
+            <td align="center"><input type="week" name="userWeek" id="userSemanaPreparatoria"></td>
+
+            <tr></tr>
+
+            <td align="center">Previsão de término do curso:</td>
+            <td align="center"><input type="month" name="userMonth" id="userTerminoCurso"></td>
+
+            <td align="center">Número de acompanhantes:</td>
+            <td align="center"><input type="number" name="userNumber" id="userQuantAcompanhantes"></td>
+
+            <tr></tr>
+
+            <td align="center">Comprovante de pagamento:</td>
+            <td align="center"><input type="file" name="userFile" id="userComprovante"></td>
+
+            <td align="center">Cor do crachá virtual:</td>
+            <td align="center"><input type="color" name="userColor" id="userCorCracha"></td>
+        </table>
+
+        <input style="margin: 15px 10px 0 200px;" type="submit" value="Enviar">
+        <input type="button" value="Limpar">
+    </form>
+</body>
+</html>
