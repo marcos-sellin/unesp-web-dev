@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Terceira página</title>
+    <meta charset="UTF-8">
+</head>
+
+<body bgcolor="8C4343">
+    <h1>Forms - Input</h1>
+
+    <table border="3">
+        <form>
+            <tr>
+                <th align="center">Text:</th>
+                <td align="center"><input type="text" name="userName" maxlength="20" placeholder="seu nome"></td>
+            </tr>
+            <tr>
+                <th align="center">Password:</th>
+                <td align="center"><input type="password" name="userPassword" maxlength="20" placeholder="sua senha"></td>
+            </tr>
+            <tr>
+                <th align="center">Checkbox:</th>
+                <td align="center"><input type="checkbox" name="userCheckAbobrinha" value="abobrinha">Abobrinha
+                <br><input type="checkbox" name="userCheckBeringela" value="beringela">Beringela
+                <br><input type="checkbox" name="userCheckAbacate" value="abacate" checked>Abacate</td>
+            </tr>
+            <tr>
+                <th align="center">Radio:</th>
+                <td align="center"><input type="radio" name="userRadio" value="sim" checked>Sim
+                <br><input type="radio" name="userRadio" value="nao">Não</td>
+            </tr>
+            <tr>
+                <th align="center">Button:</th>
+                <td align="center"><input type="button" name="userButton" onclick="alert('Olá, Mundo!')" value="Clique"></td>
+            </tr>
+            <tr>
+                <th align="center">Color:</th>
+                <td align="center"><input type="color" name="userColor"></td>
+            </tr>
+            <tr>
+                <th align="center">Date:</th>
+                <td align="center"><input type="date" name="userDate"></td>
+            </tr>
+            <tr>
+                <th align="center">Datetime-local:</th>
+                <td align="center"><input type="datetime-local" name="userDatetime-local"></td>
+            </tr>
+            <tr>
+                <th align="center">Email:</th>
+                <td align="center"><input type="email" name="userEmail" placeholder="seu email"></td>
+            </tr>
+            <tr>
+                <th align="center">File:</th>
+                <td align="center"><input type="file" name="userFile"></td>
+            </tr>
+            <tr>
+                <th align="center">Month:</th>
+                <td align="center"><input type="month" name="userMonth"></td>
+            </tr>
+            <tr>
+                <th align="center">Number:</th>
+                <td align="center"><input type="number" name="userNumber" min="0" max="9" value="0"></td>
+            </tr>
+            <tr>
+                <th align="center">Range:</th>
+                <td align="center"><input type="range" name="userRange" min="0" max="100" value="0"></td>
+            </tr>
+            <tr>
+                <th align="center">Search:</th>
+                <td align="center"><input type="search" name="userSearch" placeholder="sua pesquisa"></td>
+            </tr>
+            <tr>
+                <th align="center">Tel:</th>
+                <td align="center"><input type="tel" name="userTel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="00-00000-0000"></td>
+            </tr>
+            <tr>
+                <th align="center">Time:</th>
+                <td align="center"><input type="time" name="userTime"></td>
+            </tr>
+            <tr>
+                <th align="center">Url:</th>
+                <td align="center"><input type="url" name="userUrl" placeholder="sua url"></td>
+            </tr>
+            <tr>
+                <th align="center">Week:</th>
+                <td align="center"><input type="week" name="userWeek"></td>
+            </tr>
+            <tr>
+                <th>Submit:</th>
+                <td align="center"><input type="submit" name="userSubmit" value="Enviar"></td>
+            </tr>
+            <tr>
+                <th>Reset:</th>
+                <td align="center"><input type="reset" name="userSubmit" value="Redefinir"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>

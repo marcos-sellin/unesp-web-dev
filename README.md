@@ -20,4 +20,5 @@
 
 ## Checklist de Aulas
 
-- [X] Aula 01 - Introdução a HTML e CSS
+- [X] Aula 01 - Introdução a HTML
+- [ ] Aula 02 - Introdução a CSS
