@@ -129,10 +129,10 @@
             <th class="corWheat" colspan="2" align="center">Ingresso e Atividades</th><tr></tr>
 
             <td align="center">Digite seu nome:</td>
-            <td class="tabelaPadding" align="center"><input type="text" name="userNome" placeholder="Seu nome aqui"></td>
+            <td class="tabelaPadding" align="center"><input type="text" id="nome" name="userNome" placeholder="Seu nome aqui"></td>
 
             <td align="center">Escolha seu ingresso:</td>
-            <td align="center"><input type="radio" id="estudante" name="userIngresso" value="Estudante">
+            <td align="center"><input type="radio" id="estudante" name="userIngresso" value="Estudante" checked>
             <label for="estudante">Estudante</label>
             <input type="radio" id="professor" name="userIngresso" value="Professor">
             <label for="professor">Professor</label>
@@ -142,54 +142,54 @@
             <tr></tr>
 
             <td align="center">Digite seu RA:</td>
-            <td align="center"><input type="text" name="userRA" placeholder="Seu RA aqui"></td>
+            <td align="center"><input type="text" id="registroAcademico" name="userRA" placeholder="Seu RA aqui"></td>
 
             <td class="tabelaPadding" rowspan="3" align="center">Escolha suas atividades:</td>
-            <td class="tabelaPadding" rowspan="3" align="center"><input type="checkbox" id="miniHardware" name="userHardware">
+            <td class="tabelaPadding" rowspan="3" align="center"><input type="checkbox" id="miniHardware" name="userMiniHardware" checked>
             <label for="miniHardware">Minicurso Hardware</label>
-            <input type="checkbox" id="workHardware" name="userPratHardware">
+            <input type="checkbox" id="workHardware" name="userWorkHardware">
             <label for="workHardware">Workshop Hardware</label><br>
-            <input type="checkbox" id="miniObsidian" name="userObsidian">
+            <input type="checkbox" id="miniObsidian" name="userMiniObsidian">
             <label for="miniObsidian">Minicurso Obsidian</label>
-            <input type="checkbox" id="workObsidian" name="userPratObsidian">
+            <input type="checkbox" id="workObsidian" name="userWorkObsidian">
             <label for="workObsidian">Workshop Obsidian</label></td>
 
             <tr></tr>
 
             <td align="center">Digite seu e-mail:</td>
-            <td align="center"><input type="email" name="userEmail" placeholder="Seu e-mail aqui"></td>
+            <td align="center"><input type="email" id="email" name="userEmail" placeholder="Seu e-mail aqui"></td>
 
             <tr></tr>
 
             <td align="center">Crie uma senha:</td>
-            <td align="center"><input type="password" name="userSenha" placeholder="Sua senha aqui"></td>
+            <td align="center"><input type="password" id="senha" name="userSenha" placeholder="Sua senha aqui"></td>
 
             <td align="center">Horário da mentoria:</td>
-            <td align="center"><input type="datetime-local" name="userDatetimeLocal" id="userMentoriaHorario"></td>
+            <td align="center"><input type="datetime-local" id="horaMentoria" name="userHoraMentoria"></td>
 
             <tr></tr>
 
             <td class="tabelaPadding" align="center">Informe sua data de nascimento:</td>
-            <td align="center"><input type="date" name="userNascimento"></td>
+            <td align="center"><input type="date" id="nascimento" name="userNascimento"></td>
 
             <td align="center">Semana preparatória:</td>
-            <td align="center"><input type="week" name="userWeek" id="userSemanaPreparatoria"></td>
+            <td align="center"><input type="week" id="semanaPrep" name="userSemanaPrep"></td>
 
             <tr></tr>
 
             <td align="center">Previsão de término do curso:</td>
-            <td align="center"><input type="month" name="userMonth" id="userTerminoCurso"></td>
+            <td align="center"><input type="month" id="terminoCurso" name="userTerminoCurso"></td>
 
             <td align="center">Número de acompanhantes:</td>
-            <td align="center"><input type="number" name="userNumber" id="userQuantAcompanhantes"></td>
+            <td align="center"><input type="number" id="acompanhantes" name="userAcompanhantes"></td>
 
             <tr></tr>
 
             <td align="center">Comprovante de pagamento:</td>
-            <td align="center"><input type="file" name="userFile" id="userComprovante"></td>
+            <td align="center"><input type="file" id="comprovante" name="userComprovante"></td>
 
             <td align="center">Cor do crachá virtual:</td>
-            <td align="center"><input type="color" name="userColor" id="userCorCracha"></td>
+            <td align="center"><input type="color" id="corCracha" name="userCorCracha"></td>
         </table>
 
         <input style="margin: 15px 10px 0 200px;" type="submit" value="Enviar">

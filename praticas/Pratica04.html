@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quarta Página</title>
+    <link rel="stylesheet" href="./styles/Pratica04.css">
+</head>
+
+<body bgcolor="95BBBF">
+    <h1>Formulário e CSS</h1>
+
+    <form action="URL" method="GET">
+        <h2>Fieldset:</h2>
+        <fieldset>
+            <legend>Endereço de Entrega</legend>
+
+            <label for="rua">Rua:</label>
+            <input type="text" id="rua" name="userRua"></input>
+            <br>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="userCep"></input>
+        </fieldset>
+        <hr>
+
+        <h2>Área de Texto:</h2>
+        <label for="textArea">Text Area:</label>
+        <textarea id="textArea" name="userTextArea" rows="4" cols="40" placeholder="Área de Texto"></textarea>
+        <hr>
+
+        <h2>Menus Suspensos</h2>
+        <select name="userCidade" id="cidade">
+            <option value="">-- Selecione --</option>
+            <optgroup label="Sudeste">
+                <option value="SP" selected>São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </optgroup>
+            <optgroup label="Sul">
+                <option value="PR">Paraná</option>
+            </optgroup>
+        </select>
+        <hr>
+    </form>
+
+    <h2>Testes usando CSS</h2>
+    <h3>Teste com o elemento h3</h3>
+    <h3 id="h3_1">Teste com o elemento h3 usando id</h3>
+    <p id="p_1">Teste com o elemento p usando id</p>
+    <p id="p_2">Teste com o elemento p usando id</p>
+</body>
+
+</html>
