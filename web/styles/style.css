@@ -1,0 +1,20 @@
+body {
+    background-color: #00060E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #F3E600;
+}
+
+p {
+    color: #54C1E6;
+}
+
+a {
+    color: #C5003C;
+}
+
+p, a {
+    font-size: 14pt;
+}
