@@ -1,20 +1,38 @@
 body {
     background-color: #00060E;
+    background-image: url(../assets/CyberpunkBG.jpg);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1, h2 {
     color: #F3E600;
+    background-color: #00060E;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
 }
 
 p {
     color: #54C1E6;
+    background-color: #00060E;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
 }
 
 a {
     color: #C5003C;
+    background-color: #00060E;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
 }
 
 p, a {
     font-size: 14pt;
+}
+
+hr {
+    border: 5px solid snow;
+    border-radius: 10px;
 }
