@@ -1,0 +1,49 @@
+h1, table {
+    text-align: center;
+}
+
+h2, h3 {
+    margin: 25px 200px 10px;
+}
+
+p, dl, table {
+    margin: 0 200px 0;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: wheat;
+    margin: 0 200px 0;
+}
+
+dd {
+    margin: 0 44px 10px;
+}
+
+ul {
+    margin: 0 178px 0;
+}
+
+ol {
+    margin: 0 186px 0;
+}
+
+.corWheat {
+    color: wheat;
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace;
+}
+
+.corSnow {
+    color: snow;
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace;
+}
+
+.tabelaPadding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inputButton {
+    margin: 15px 10px 0 200px;
+}

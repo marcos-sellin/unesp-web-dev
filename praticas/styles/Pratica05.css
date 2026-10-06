@@ -1,0 +1,29 @@
+body {
+    background: #4964DC 
+                url("../assets/JohnnySilverhand.png") 
+                no-repeat fixed 
+                10% 10%;
+}
+
+h3 {
+    color: aquamarine;
+    background-color: blue;
+    padding-left: 50px; 
+}
+
+.tamanho_1 {
+    font-size: 20pt;
+}
+
+.cor_1 {
+    color: tan;
+    background-color: black;
+}
+
+.cor_2 {
+    color: snow;
+}
+
+.cor_3 {
+    color: red;
+}

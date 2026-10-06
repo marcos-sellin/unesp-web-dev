@@ -1,0 +1,118 @@
+.div01 {
+    display: flex;
+    justify-content: center;
+}
+
+.div02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div1 {
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 150px;
+    box-sizing: border-box;
+    margin: 0 20px 20px 10px;
+    padding: 25px;
+    background-color: aquamarine;
+    border: none;
+    outline: black 5px solid;
+}
+
+.div2 {
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 150px;
+    box-sizing: border-box;
+    margin: 0 20px 20px 10px;
+    padding: 25px;
+    background-color: blueviolet;
+    border: wheat 5px dotted;
+    outline: black 5px solid;
+}
+
+.div3 {
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 150px;
+    box-sizing: border-box;
+    margin: 0 20px 20px 10px;
+    padding: 25px;
+    background-color: chocolate;
+    border: wheat 5px dashed;
+    outline: black 5px solid;
+}
+
+.div4 {
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 150px;
+    box-sizing: border-box;
+    margin: 0 20px 20px 10px;
+    padding: 25px;
+    background-color: mediumslateblue;
+    border: wheat 5px solid;
+    outline: black 5px solid;
+}
+
+.div5 {
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 600px;
+    max-height: auto;
+    box-sizing: border-box;
+    margin: 0 20px 20px 10px;
+    padding: 25px;
+    background-color: darkgrey;
+    border: wheat 5px groove;
+    outline: black 5px solid;
+}
+
+.textoFormatado1 {
+    text-align: center;
+}
+
+.textoFormatado2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10pt;
+    text-indent: none;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.texto1 {
+    text-decoration: underline dotted blue 5px;
+}
+
+.texto2 {
+    text-decoration: underline dashed red 5px;
+}
+
+.texto3 {
+    text-decoration: underline solid purple 2px;
+}
+
+.texto4 {
+    text-decoration: underline wavy green 2px;
+}
+
+.texto5 {
+    text-decoration: underline double yellow 2px;
+}
