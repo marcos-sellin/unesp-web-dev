@@ -1,21 +1,13 @@
+body {
+    background-color: lightblue;
+}
+
 .borda {
     border: 5px #00060E;
     border-radius: 20px;
     padding: 0 0 0 10px;
     background-color: wheat;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.div1 {
-    width: 300px;
-    padding: 25px;
-    background-color: blueviolet;
-}
-
-.div2 {
-    width: 100px;
-    padding: 25px;
-    background-color: aquamarine;
 }
 
 .dotted {

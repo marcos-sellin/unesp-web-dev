@@ -4,46 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>SAC Info</title>
-
-    <style>
-        .corWheat {
-            color: wheat;
-            font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
-        }
-
-        .corSnow {
-            color: snow;
-            font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
-        }
-
-        .tabelaPadding {
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        h2, h3 {
-            margin: 25px 200px 10px;
-        }
-
-        p {
-            margin: 0 200px 0;
-        }
-
-        hr {
-            border: none;
-            height: 2px;
-            background-color: wheat;
-            margin: 0 200px 0;
-        }
-
-        dd {
-            margin: 0 44px 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="../styles/Exercicio02.css">
 </head>
 
 <body bgcolor="#1D1F21">
-    <h1 style="text-align: center;" class="corWheat">I Semana Acadêmica de Computação</h1><hr>
+    <h1 class="corWheat">I Semana Acadêmica de Computação</h1><hr>
 
     <h2 class="corWheat">Sobre a SAC</h2>
     <p class="corSnow">Durante o período de três dias, serão oferecidos minicursos, palestras
@@ -53,7 +18,7 @@
     oferecidos pelos nossos profissionais.</p>
 
     <h2 class="corWheat">Modalidades do Evento</h2>
-    <dl style="margin: 0 200px 0;" class="corSnow">
+    <dl class="corSnow">
         <dt>Minicursos (Manhã):</dt>
         <dd>Momentos de aprendizado com duração de 4h sobre algum assunto crucial para a área da computação;</dd>
 
@@ -77,7 +42,7 @@
     </dl>
 
     <h2 class="corWheat">Benefícios por Participar</h2>
-    <ul style="margin: 0 178px 0;" class="corSnow">
+    <ul class="corSnow">
         <li>Certificado de Horas;</li>
 
         <li>Networking;</li>
@@ -86,7 +51,7 @@
     </ul>
 
     <h2 class="corWheat">Passos para a Inscrição</h2>
-    <ol style="margin: 0 186px 0;" class="corSnow" type="1">
+    <ol class="corSnow" type="1">
         <li>Preencha o formulário abaixo;</li>
 
         <li>Escolha os minicursos;</li>
@@ -95,7 +60,7 @@
     </ol>
 
     <h2 class="corWheat">Cronograma do Evento</h2>
-    <table style="margin: 0 200px 0; text-align: center;" class="corSnow" border="1">
+    <table class="corSnow" border="1">
         <th>Dia</th>
         <th>Manhã (8h-12h)</th>
         <th>Tarde (14h-18h)</th>
@@ -124,7 +89,7 @@
     <h2 class="corWheat">Formulário de Inscrição</h2>
 
     <form>
-        <table class="corSnow" style="margin: 0 0 0 200px;" border="1">
+        <table class="corSnow" border="1">
             <th class="corWheat" colspan="2" align="center">Dados Pessoais</th>
             <th class="corWheat" colspan="2" align="center">Ingresso e Atividades</th><tr></tr>
 
@@ -192,7 +157,7 @@
             <td align="center"><input type="color" id="corCracha" name="userCorCracha"></td>
         </table>
 
-        <input style="margin: 15px 10px 0 200px;" type="submit" value="Enviar">
+        <input class="inputButton" type="submit" value="Enviar">
         <input type="button" value="Limpar">
     </form>
 </body>
