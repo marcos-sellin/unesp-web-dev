@@ -1,0 +1,84 @@
+body {
+    background-color: gainsboro;
+}
+
+.containerLinha {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: blue;
+    border: solid 3px whitesmoke;
+}
+
+.containerColuna {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    background-color: blue;
+    border: solid 3px whitesmoke;
+}
+
+.containerLinhaReversa {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    background-color: blue;
+    border: solid 3px whitesmoke;
+}
+
+.containerColunaReversa {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    justify-content: center;
+    background-color: blue;
+    border: solid 3px whitesmoke;
+}
+
+.containerQuebraLinha {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: blue;
+    border: solid 3px whitesmoke;
+}
+
+.containerQuebraLinhaReversa {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    background-color: blue;
+    border: solid 3px whitesmoke;
+}
+
+.containerJustifyStart {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    background-color: blue;
+    border: solid 3px whitesmoke;
+}
+
+.containerJustifyEnd {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    background-color: blue;
+    border: solid 3px whitesmoke;
+}
+
+.containerJustifySpace {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: blue;
+    border: solid 3px whitesmoke;
+}
+
+div div {
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 20px 10px 20px 10px;
+    border: solid 3px black;
+    border-radius: 10px;
+    text-align: center;
+}
