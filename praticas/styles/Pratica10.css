@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topo {
+    width: 100vw;
+    height: 10vh;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.logo {
+    color: #06b6d4;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2vw;
+    font-weight: 500;
+}
+
+.principal {
+    width: 100vw;
+    height: 85vh;
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10vw;
+}
+
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+.hero-banner h1 {
+    font-size: 5vw;
+}
+
+.hero-banner p {
+    font-size: 2vw;
+    max-width: 60vw;
+}
+
+.action-btn {
+    padding: 1.5vh 3vw;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #4f46e5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.action-btn:hover {
+    transform: scale(1.1);
+    color: #111;
+}
+
+.base {
+    width: 100vw;
+    height: 5vh;
+    background-color: #111;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .hero-banner h1 {
+        font-size: 8vw;
+    }
+
+    .conteudo-heroi p {
+        font-size: 4vw;
+        max-width: 80vw;
+    }
+}
