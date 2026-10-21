@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/Exercicio03.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="tituloSite flexConf">
+        <h1 class="corWheat">I Semana Acadêmica de Computação</h1>
+        <h2 class="corWheat">Formulário de Feedback</h2>
+    </div><hr>
+
+    <div class="textoPrincipal flexConf corSnow">
+        <p>Para todos os participantes desse evento,
+        um formulário está disponibilizado para preenchimento,
+        onde os dados enviados pelo participante serão utilizados
+        para a melhora dos eventos dos anos seguintes.</p>
+
+        <p>Os dados coletados apenas confirmam que o usuário
+        teve participação do evento, eles não serão registrados
+        novamente. Preencha com sinceridade, sua experiência
+        é muito valiosa para o nosso time.</p>
+    </div><hr>
+
+    <div class="formsPrincipal flexConf">
+        <h2 class="corWheat">Preencha o Formulário</h2>
+
+        <form>
+            <div class="formDivConf">
+                <label for="userNome" class="corSnow">Seu nome: </label>
+                <input type="text" id="userNome" name="userNome">
+            </div>
+
+            <div class="formDivConf">
+                <label for="userMail" class="corSnow">E-mail cadastrado: </label>
+                <input type="email" id="userMail" name="userMail">
+            </div>
+
+            <div class="formDivConf">
+                <label for="userFav" class="corSnow">Atividade favorita: </label>
+                
+                <select name="userFav" id="userFav">
+                    <optgroup label="Minicursos">
+                        <option value="miniHardware">Mini Hardware</option>
+                        <option value="miniObsidian">Mini Obsidian</option>
+                    </optgroup>
+                    <optgroup label="Workshops">
+                        <option value="workHardware">Work Hardware</option>
+                        <option value="workObsidian">Work Obsidian</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div class="formDivConf">
+                <label class="corSnow">Atividades que não gostou: </label>
+                
+                <div id="userNaoFav">
+                    <input type="checkbox" id="userMHardware" name="userMHardware">
+                    <label for="userMHardware" class="corSnow">Minicurso de Hardware</label>
+
+                    <input type="checkbox" id="userMObsidian" name="userMObsidian">
+                    <label for="userMObsidian" class="corSnow">Minicurso de Obsidian</label>
+                
+                    <input type="checkbox" id="userWHardware" name="userWHardware">
+                    <label for="userWHardware" class="corSnow">Workshop de Hardware</label>
+
+                    <input type="checkbox" id="userWObsidian" name="userWObsidian">
+                    <label for="userWObsidian" class="corSnow">Workshop de Obsidian</label>
+                </div>
+            </div>
+
+            <div class="formDivConf">
+                <label class="corSnow">Recomendaria a SAC para alguém?</label>
+
+                <div id="userOpt">
+                    <input type="radio" id="userSim" name="userEscolha" value="sim">
+                    <label for="userSim" class="corSnow">Sim</label>
+
+                    <input type="radio" id="userNao" name="userEscolha" value="nao">
+                    <label for="userNao" class="corSnow">Não</label>
+                </div>
+            </div>
+
+            <div class="formDivConf">
+                <label for="userSugest" class="corSnow">Alguma sugestão?</label>
+                <textarea id="userSugest" name="userSugest"></textarea>
+            </div>
+
+            <div class="formDivConf">
+                <input type="submit" id="userSubmit" name="userSubmit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
