@@ -3,9 +3,8 @@
 ## Observações
 
 - Essa é uma matéria optativa do curso que utiliza três principais linguagens, sendo elas HTML, CSS e JavaScript;
-- A pasta atividades/ é dedicada para arquivos PDF que explicam o conteúdo de cada atividade;
-- A pasta web/ armazena todas as atividades realizadas e seus componentes;
-- A pasta praticas/ contém todas as práticas feitas durante as aulas e seus componentes.
+- A pasta web/ armazena todas as atividades propostas pelo professor, incluindo um index.html com links para cada uma delas;
+- A pasta praticas/ contém aplicações dos conhecimentos dados em sala de aula.
 
 ## Informações Acadêmicas
 
@@ -21,5 +20,14 @@
 ## Checklist de Aulas
 
 - [X] Aula 01 - Introdução a HTML
-- [ ] Aula 02 - Formulários e Controles de Entrada
-- [ ] Aula 03 - Introdução a CSS
+- [X] Aula 02 - Formulários e Controles de Entrada 1
+- [X] Aula 03 - Formulários e Controles de Entrada 2
+- [X] Aula 04 - Introdução ao CSS
+- [X] Aula 05 - CSS com Arquivo Dedicado
+- [X] Aula 06 - Bordas usando CSS
+- [X] Aula 07 - Tag 'div' e Formatação 
+- [X] Aula 08 - Tipos de Display
+- [X] Aula 09 - Containers e Display Flex
+- [X] Aula 10 - Formatação Geral da Página
+- [X] Aula 11 - Introdução ao JavaScript
+- [X] Aula 12 - Eventos e Funções

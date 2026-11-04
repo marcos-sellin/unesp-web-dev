@@ -1,0 +1,155 @@
+* {
+    margin: auto;
+    height: auto;
+}
+
+body {
+    background-color: #1d1f21;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    width: 75vw;
+    background-color: wheat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 15px 5vw 0 5vw;
+    width: 60vw;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+
+form div.formDivConf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid wheat;
+    border-bottom: none;
+    border-radius: 0;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+form div.formDivConf:last-child {
+    border-bottom: 1px solid wheat;
+}
+
+form div label {
+    text-align: left;
+    flex: 1;
+    padding-right: 15px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid wheat;
+    background-color: transparent;
+    color: snow;
+    padding: 6px 10px;
+    border-radius: 0;
+}
+
+#userNaoFav input,
+#userOpt input {
+    width: auto;
+    margin: 0;
+    border: none;
+}
+
+#userSubmit {
+    width: auto;
+    padding: 8px 25px;
+    cursor: pointer;
+    background-color: wheat;
+    color: #1d1f21;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+}
+
+#userSubmit:hover {
+    background-color: #e6c687;
+}
+
+#userNaoFav, 
+#userOpt {
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 8px;
+    row-gap: 8px;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+#userNaoFav label,
+#userOpt label {
+    flex: none;
+    text-align: left;
+    width: auto;
+    margin: 0;
+    padding-right: 0;
+}
+
+.tituloSite h1 {
+    padding: 0 0 10px 0;
+}
+
+.textoPrincipal p {
+    padding: 0 0 20px 0;
+}
+
+.corWheat {
+    color: wheat;
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace;
+}
+
+.corSnow {
+    color: snow;
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace;
+}
+
+.tituloSite {
+    padding: 15px 0 20px 0;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+
+.textoPrincipal {
+    text-align: center;
+    padding: 15px 10vw 0 10vw;
+    width: 60vw;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.formsPrincipal {
+    padding: 15px 0 0 0;
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.flexConf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
