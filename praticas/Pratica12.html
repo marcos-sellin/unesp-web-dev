@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Doze</title>
+</head>
+
+<body>
+    <h1 onclick="alert(`clique no h1`)">Trabalhando com JavaScript 2</h1>
+
+    <form>
+        <label for="userName">Primeiro nome: </label><br>
+        <input type="text" name="userNome" id="userName" onchange="alert('nome alterado')"><br>
+        <label for="userSurName">Sobrenome: </label><br>
+        <input type="text" name="userSobrenome" id="userSurName" onblur="alert('mudou o sobrenome')"><br>
+        <label for="userAdress">Endereco: </label><br>
+        <input type="text" name="userEndereco" id="userAdress" onselect="alert('texto selecionado')"><br>
+        <label for="userPhone">Telefone: </label><br>
+        <input type="text" name="userTelefone" id="userPhone" onkeypress="alert('tecla pressionada')"><br>
+
+        <input type="submit" value="Clique 1x" onclick="alert('clicou 1x')">
+        <input type="submit" value="Clique 2x" ondblclick="alert('clicou 2x')">
+    </form>
+
+    <button onclick="Exibe_mensagem()">Chamar Função</button>
+    <button onclick="document.getElementById('demo').innerHTML+=Date()">Imprimir Data</button>
+    
+    <p id="msg">Mensagem: </p>
+    <p id="demo">Data atual: </p>
+
+    <img src="./assets/LogoFCT.png" alt="LogoFCT"
+    width="300px" height="100px" onclick="alert('clicou na imagem')"
+    onmouseenter="alert('entrando na imagem')"
+    onmouseout="alert('saindo da imagem')"
+    onmousemove="document.getElementById('move').innerHTML+='X'">
+
+    <p id="move">Texto impresso: </p>
+
+    <script lang="JavaScript" src="./scripts/Pratica12.js"></script>
+</body>
+
+</html>
