@@ -3,7 +3,8 @@
 ## Observações
 
 - Essa é uma matéria optativa do curso que utiliza três principais linguagens, sendo elas HTML, CSS e JavaScript;
-- A pasta web/ armazena todas as atividades propostas pelo professor, incluindo um index.html com links para cada uma delas;
+- O arquivo index.html é uma página que contém links para todas as demais páginas do repositório;
+- A pasta web/ armazena todas as atividades propostas pelo professor e o arquivo index.html;
 - A pasta praticas/ contém aplicações dos conhecimentos dados em sala de aula.
 
 ## Informações Acadêmicas
