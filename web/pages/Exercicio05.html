@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenho com Canvas</title>
+    <style>
+        #canvasDraw {
+            border: 2px solid #000000;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Canvas para desenho com o mouse</h1>
+    <p>Clique na opção de forma, clique e arraste no canvas 
+        com o mouse para desenhar e solte para salvar a forma.<p>
+
+    <canvas id="canvasDraw" width="300" height="300"></canvas>
+
+    <div>
+        <button onclick="selecionarFerramenta('linha')">Linha</button>
+        <button onclick="selecionarFerramenta('circulo')">Círculo</button>
+        <button onclick="selecionarFerramenta('retangulo')">Retângulo</button>
+        <button onclick="limparCanvas()">Limpar</button>
+    </div>
+
+    <script src="../scripts/Exercicio05.js"></script>
+</body>
+
+</html>
